@@ -1,5 +1,5 @@
 library(shiny)
-install.packages("rmarkdown", repos = "https://cran.revolutionanalytics.com")
+install.packages("evaluate")
 library(markdown)
 
 shinyUI(navbarPage("Baseline Correction for Copy Number Data from Cancer Samples", id="baseCN",
