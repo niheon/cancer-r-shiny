@@ -1,6 +1,4 @@
 library(shiny)
-install.packages("evaluate")
-install.packages("hexbin")
 install.packages("markdown")
 library(markdown)
 
