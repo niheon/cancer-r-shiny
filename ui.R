@@ -1,5 +1,7 @@
 library(shiny)
 install.packages("evaluate")
+install.packages("hexbin")
+install.packages("markdown")
 library(markdown)
 
 shinyUI(navbarPage("Baseline Correction for Copy Number Data from Cancer Samples", id="baseCN",
